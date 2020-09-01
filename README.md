@@ -1,10 +1,10 @@
 # Visualisation-beer-prices
 
-**Beer prices in different shop** 
-
 **Description**
 
-This project was made to compare the beer prices in the largest grocery store chains in Switzerland. All the necessary data was taken from the websites of Coop and Manor with the help of Parsehub. 
+This project was made to compare the beer prices in the largest grocery store chains in Switzerland using d3js. All the necessary data was taken from the websites of Coop and Manor with the help of Parsehub.
+
+data/manor.json and data/coop.json are the scrapped files. 
 
 **Functionality**
 
