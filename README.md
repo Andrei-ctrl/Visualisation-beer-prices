@@ -25,6 +25,7 @@ Also, I wanted to make the selection options to change input data for the chart.
 Between bar chart and dot plot representation, I have choosen bar chart because it was not only easier to code, but also it is accurately showing the difference in prices. Else, I used tooltip with mouseover functions to show the beers with long names, their price and volume. 
 
 **Author of the project**
+
 The project is done by Andrei Anikin (Master ISH) for the « Visualisation de données » class teached at the University of Lausanne (Unil) by Mr. Loïc Cattani, and assistance of Loris Rimaz.
 
 
