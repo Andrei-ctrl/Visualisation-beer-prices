@@ -18,7 +18,7 @@ Secondly, I changed this to displaying description by clicking on the beer emoji
 
 But in the end, the bars were left to show the transition and animate them.
 
-The X axis represents just indexes for each item in JSON as there is not really a good use for this axis. The Y axis represents the price in swiss francs. 
+The X axis represents just indexes for each item in JSON as there is not really a good use for this axis. The Y axis represents prices in swiss francs. 
 
 Also, I wanted to make the selection options to change input data for the chart. But I didn't succeed in implementing this functionality from JSON files due to lack of programming knowledge. On the contrary, the chart generates new bars with new data because I manually inserted two JSON files in two variables var coop and var manor in main.js. However, even without counting those two variables, the code is very heavy (~525 lines) with not really impressive functionality. Hence, the code can be extremely improved.
 
