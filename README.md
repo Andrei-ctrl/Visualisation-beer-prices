@@ -4,11 +4,17 @@
 
 This project was developed as part of the Data Visualization course given by Isaac Pante and Loïc Cattani (SLI, Letters, UNIL). The project was made to compare the beer prices in the largest grocery store chains in Switzerland using d3js. All the necessary data was taken from the websites of Coop and Manor with the help of Parsehub.
 
-data/manor.json and data/coop.json are the scrapped files. 
-
 **Functionality**
 
-With the help of d3js, this code can make a bar chart, a pie chart and a table using different data as long as it has the following format of JSON [{"name": "name", "price": "price", "volume": "volume", "type": "type"}, ...]. The keys "name", "price", "volume" and "type" should correspond to those used in code.
+The scrapped files data/manor.json and data/coop.json were deleted from the current directory and stored as variables with the corresponding names in main.js. 
+
+
+With the help of d3js, this code can make a bar chart, a pie chart and a table using different data as long as it has the following format of JSON [{"name": "name", "price": "price", "volume": "volume", "type": "type"}, ...]. The keys "name", "price", "volume" and "type" should correspond to those used in code. 
+
+
+Here is a link to [TRY IT OUT!](https://andrei-ctrl.github.io/Visualisation-beer-prices/)
+![DVS.PNG](DVS.PNG)
+![DVS2.PNG](DVS2.PNG)
 
 
 
