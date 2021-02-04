@@ -8,22 +8,121 @@ p.title {
 }
 
 .canva {
-  width: 70%;
-  height: 70%;
+  margin-left: 30px;
+  width: 55%;
+  height: 55%;
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+}
+
+.title,
+.title_pie {
+  margin-left: 30px;
+  width: 900px;
+}
+
+.instructions,
+p {
+  margin-left: 30px;
+  width: 900px;
+}
+
+#my_dataviz {
+  margin-left: 30px;
+  width: 900px;
   display: absolute;
   justify-content: center;
 }
-div.tooltip {
-  color: black;
-  position: absolute;
+
+.title_table {
+  max-width: 1250px;
   text-align: left;
-  width: auto;
-  height: auto;
-  padding: 5px;
-  font-family: Futura;
-  font: 15px sans-serif;
-  background: lightblue;
-  border: 0px;
-  border-radius: 8px;
-  pointer-events: none;
+  position: relative;
+  left: 1200px;
+  bottom: 1240px;
+}
+.table_desc {
+  max-width: 1250px;
+  text-align: left;
+  position: relative;
+  left: 1173px;
+  bottom: 1235px;
+}
+#output {
+  max-width: 1250px;
+  text-align: left;
+  position: relative;
+  left: 1200px;
+  bottom: 1230px;
+}
+
+@media (max-width: 768px) {
+  .title_table,
+  .table_desc,
+  #output {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .title_table,
+  .table_desc,
+  #output {
+    position: static;
+  }
+  .canva {
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .title_table,
+  .table_desc,
+  #output {
+    position: static;
+  }
+  .canva {
+    margin-left: 30px;
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    justify-content: center;
+    position: static;
+  }
+}
+
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
 }
