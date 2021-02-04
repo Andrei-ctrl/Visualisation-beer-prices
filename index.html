@@ -7,18 +7,27 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1 class="title">Beer prices comparison</h1>
+    <h1 class="title">Beer price comparison</h1>
     <p class="instructions">
       Put the mouse cursor over "🍺" icon or bar to display name and price.
     </p>
-    <p>Choose shop:
-      <select id="shop_option" style="text-align: left" style="border: 2px solid black; border-radius: 10px">
+    <p class="opt">Choose supermarket:
+      <select id="shop_option" style="text-align: left" style="border: 2px solid black; border-radius: 10px" onchange="change()">
         <option value="Coop">Coop</option>
         <option value="Manor">Manor</option>
       </select>
       <div class="canva"></div>
     </p>
+    <br>
+    <h2 class="title_pie">Pie chart representation of beer types</h2>
+    <p class="pie_desc">In the selected supermarket there are:</p>
+    <div id="my_dataviz"></div>
+    <h2 class="title_table">Beer table 🍺</h2>
+    <p class="table_desc">List in the selected supermarket:</p>
+    <div id='output'></div>
   </body>
   <script src="js/d3.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src=""></script>
 </html>
