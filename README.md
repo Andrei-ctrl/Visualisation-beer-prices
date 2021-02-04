@@ -17,16 +17,13 @@ Here is a link to [TRY IT OUT!](https://andrei-ctrl.github.io/Visualisation-beer
 ![DVS2.PNG](DVS2.PNG)
 
 
-
-![Beers_version.PNG](Beers_version.PNG)
-
 But in the end, the bars were left to show the transition and animate them.
 
-The X axis represents just indexes for each item in JSON as there is not really a good use for this axis. The Y axis represents prices in swiss francs. 
+The X axis represents just indexes for each item in JSON. The Y axis represents prices in swiss francs. 
 
-Also, I wanted to make the selection options to change input data for the chart. But I didn't succeed in implementing this functionality from JSON files due to lack of programming knowledge. On the contrary, the chart generates new bars with new data because I manually inserted two JSON files in two variables var coop and var manor in main.js. However, even without counting those two variables, the code is very heavy (~525 lines) with not really impressive functionality. Hence, the code can be extremely improved.
+Between bar chart and dot plot representation, I have choosen bar chart because it was not only easier to code, but also it is accurately showing the difference in prices. Else, I used tooltip with mouseover functions to show the beers with long names, their price, volume and types. The pie chart show how many beers of the same category are present in the selected supermarket. The table shows a list of all beers in the selected supermarket. Also, bar chart, pie chart and table change depending on the selected option. 
 
-Between bar chart and dot plot representation, I have choosen bar chart because it was not only easier to code, but also it is accurately showing the difference in prices. Else, I used tooltip with mouseover functions to show the beers with long names, their price and volume. 
+Merci et bon vent!
 
 
 
