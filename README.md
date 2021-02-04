@@ -2,18 +2,16 @@
 
 **Description**
 
-This project was made to compare the beer prices in the largest grocery store chains in Switzerland using d3js. All the necessary data was taken from the websites of Coop and Manor with the help of Parsehub.
+This project was developed as part of the Data Visualization course given by Isaac Pante and Loïc Cattani (SLI, Letters, UNIL). The project was made to compare the beer prices in the largest grocery store chains in Switzerland using d3js. All the necessary data was taken from the websites of Coop and Manor with the help of Parsehub.
 
 data/manor.json and data/coop.json are the scrapped files. 
 
 **Functionality**
 
-With the help of d3js, this code can make a bar chart using different data as long as it has the following format of JSON [{"name": "name", "price": "2.60"},{"name": "name","price": "1.85"}]. The keys "name" and "price" should correspond to those used in code.
+With the help of d3js, this code can make a bar chart, a pie chart and a table using different data as long as it has the following format of JSON [{"name": "name", "price": "price", "volume": "volume", "type": "type"}, ...]. The keys "name", "price", "volume" and "type" should correspond to those used in code.
 
-At first, on click the bar changed its color to red and below the beer description was displayed.
-![Bars_version.PNG]
 
-Secondly, I changed this to displaying description by clicking on the beer emoji.
+
 ![Beers_version.PNG](Beers_version.PNG)
 
 But in the end, the bars were left to show the transition and animate them.
@@ -24,9 +22,6 @@ Also, I wanted to make the selection options to change input data for the chart.
 
 Between bar chart and dot plot representation, I have choosen bar chart because it was not only easier to code, but also it is accurately showing the difference in prices. Else, I used tooltip with mouseover functions to show the beers with long names, their price and volume. 
 
-**Author of the project**
-
-The project is done by Andrei Anikin (Master ISH) for the « Visualisation de données » class teached at the University of Lausanne (Unil) by Mr. Loïc Cattani, and assistance of Loris Rimaz.
 
 
 
