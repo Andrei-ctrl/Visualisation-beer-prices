@@ -1,678 +1,678 @@
-//data
+
+
 const manor = [
   {
-    name: "Duvel",
-    price: "2.60",
-    volume: "300ml",
-    type: "Ale",
+    "name": "Duvel",
+    "price": "2.60",
+    "volume": "300",
+    "type": "Ale"
   },
   {
-    name: "Warsteiner",
-    price: "1.60",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Warsteiner",
+    "price": "1.60",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Warsteiner",
-    price: "1.85",
-    volume: "330ml",
-    type: "Alc. free",
+    "name": "Warsteiner",
+    "price": "1.85",
+    "volume": "330",
+    "type": "Alc. free"
   },
   {
-    name: "Pietra",
-    price: "2.94",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Pietra",
+    "price": "2.94",
+    "volume": "330",
+    "type": "Lager"
 
   },
   {
-    name: "Brlo, C4PO West Coast",
-    price: "3.90",
-    volume: "330ml",
-    type: "IPA",
+    "name": "Brlo, C4PO West Coast",
+    "price": "3.90",
+    "volume": "330",
+    "type": "IPA"
 
   },
   {
-    name: "Coopers",
-    price: "2.95",
-    volume: "330ml",
-    type: "Ale",
+    "name": "Coopers",
+    "price": "2.95",
+    "volume": "330",
+    "type": "Ale"
 
   },
   {
-    name: "WESTMALLE",
-    price: "4.20",
-    volume: "330ml",
-    type: "Lager",
+    "name": "WESTMALLE",
+    "price": "4.20",
+    "volume": "330",
+    "type": "Lager"
 
   },
   {
-    name: "Porn star",
-    price: "3.50",
-    volume: "330ml",
-    type: "IPA",
+    "name": "Porn star",
+    "price": "3.50",
+    "volume": "330",
+    "type": "IPA"
   },
   {
-    name: "Trooper",
-    price: "2.95",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Trooper",
+    "price": "2.95",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "GRIMBERGEN",
-    price: "1.95",
-    volume: "330ml",
-    type: "Ale"
+    "name": "GRIMBERGEN",
+    "price": "1.95",
+    "volume": "330",
+    "type": "Ale"
   },
   {
-    name: "Peroni",
-    price: "2.20",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Peroni",
+    "price": "2.20",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Chimay",
-    price: "3.75",
-    volume: "330ml",
-    type: "Ale" 
+    "name": "Chimay",
+    "price": "3.75",
+    "volume": "330",
+    "type": "Ale" 
   },
   {
-    name: "Liefmans",
-    price: "9.00",
-    volume: "750ml",
-    type: "Ale",
+    "name": "Liefmans",
+    "price": "9.00",
+    "volume": "750",
+    "type": "Ale"
   },
   {
-    name: "LIEFMANS",
-    price: "3.50",
-    volume: "250ml",
-    type: "Ale",
+    "name": "LIEFMANS",
+    "price": "3.50",
+    "volume": "250",
+    "type": "Ale"
   },
   {
-    name: "Wanderlust",
-    price: "3.40",
-    volume: "330ml",
-    type: "Ale",
+    "name": "Wanderlust",
+    "price": "3.40",
+    "volume": "330",
+    "type": "Ale"
   },
 
   {
-    name: "Corporate Monkey",
-    price: "3.40",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Corporate Monkey",
+    "price": "3.40",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Oh IPA",
-    price: "3.80",
-    volume: "330ml",
-    type: "IPA"
+    "name": "Oh IPA",
+    "price": "3.80",
+    "volume": "330",
+    "type": "IPA"
   },
   {
-    name: "Brewdog",
-    price: "2.95",
-    volume: "500ml",
-    type: "IPA"
+    "name": "Brewdog",
+    "price": "2.95",
+    "volume": "500",
+    "type": "IPA"
   },
   {
-    name: "Riegele, Augustus 8",
-    price: "6.70",
-    volume: "660ml",
-    type: "Ale"
+    "name": "Riegele, Augustus 8",
+    "price": "6.70",
+    "volume": "660",
+    "type": "Ale"
   },
   {
-    name: "Riegele, Ator 20",
-    price: "6.70",
-    volume: "660ml",
-    type: "Ale"
+    "name": "Riegele, Ator 20",
+    "price": "6.70",
+    "volume": "660",
+    "type": "Ale"
   },
   {
-    name: "Riegele, Simco 3",
-    price: "6.70",
-    volume: "660ml",
-    type: "Ale"
+    "name": "Riegele, Simco 3",
+    "price": "6.70",
+    "volume": "660",
+    "type": "Ale"
   },
   {
-    name: "Stroud Brewery, Tom Long",
-    price: "4.90",
-    volume: "500ml",
-    type: "Ale"
+    "name": "Stroud Brewery, Tom Long",
+    "price": "4.90",
+    "volume": "500",
+    "type": "Ale"
 
   },
   {
-    name: "Officina Della Birra",
-    price: "3.90",
-    volume: "330ml",
-    type: "IPA",
+    "name": "Officina Della Birra",
+    "price": "3.90",
+    "volume": "330",
+    "type": "IPA"
   },
   {
-    name: "Desperados",
-    price: "2.80",
-    volume: "330ml",
-    type: "N/A",
+    "name": "Desperados",
+    "price": "2.80",
+    "volume": "330",
+    "type": "N/A"
   },
   {
-    name: "Guinness",
-    price: "3.00",
-    volume: "330ml",
-    type: "Ale",
+    "name": "Guinness",
+    "price": "3.00",
+    "volume": "330",
+    "type": "Ale"
   },
   {
-    name: "La Chouffe",
-    price: "3.60",
-    volume: "330ml",
-    type: "Lager",
+    "name": "La Chouffe",
+    "price": "3.60",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Chouffe",
-    price: "3.90",
-    volume: "330ml",
-    type: "Ale",
+    "name": "Chouffe",
+    "price": "3.90",
+    "volume": "330",
+    "type": "Ale"
   },
   {
-    name: "Chimay",
-    price: "3.75",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Chimay",
+    "price": "3.75",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Insel Kreide",
-    price: "3.90",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Insel Kreide",
+    "price": "3.90",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Grosse Bertha",
-    price: "3.90",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Grosse Bertha",
+    "price": "3.90",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Bellerose ",
-    price: "3.90",
-    volume: "330ml",
-    type: "IPA",
+    "name": "Bellerose ",
+    "price": "3.90",
+    "volume": "330",
+    "type": "IPA"
   },
   {
-    name: "1664",
-    price: "1.00",
-    volume: "250ml",
-    type: "Lager",
+    "name": "1664",
+    "price": "1.00",
+    "volume": "250",
+    "type": "Lager"
   },
   {
-    name: "SWAF ",
-    price: "2.20",
-    volume: "500ml",
-    type: "Lager",
+    "name": "SWAF ",
+    "price": "2.20",
+    "volume": "500",
+    "type": "Lager"
   },
   {
-    name: "La Trappe",
-    price: "3.80",
-    volume: "330ml",
-    type: "Triple Ale",
+    "name": "La Trappe",
+    "price": "3.80",
+    "volume": "330",
+    "type": "Triple Ale"
   },
   {
-    name: "Shepherd Neame",
-    price: "4.95",
-    volume: "500ml",
-    type: "Ale"
+    "name": "Shepherd Neame",
+    "price": "4.95",
+    "volume": "500",
+    "type": "Ale"
   },
   {
-    name: "White Frontier, Log-out & Live",
-    price: "3.30",
-    volume: "330ml",
-    type: "Ale",
+    "name": "White Frontier, Log-out & Live",
+    "price": "3.30",
+    "volume": "330",
+    "type": "Ale"
   },
   {
-    name: "White Frontier, Petite",
-    price: "3.30",
-    volume: "330ml",
-    type: "Lager",
+    "name": "White Frontier, Petite",
+    "price": "3.30",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "White Frontier, Amor Fati",
-    price: "3.90",
-    volume: "330ml",
-    type: "Ale",
+    "name": "White Frontier, Amor Fati",
+    "price": "3.90",
+    "volume": "330",
+    "type": "Ale"
   },
   {
-    name: "Baladin",
-    price: "4.50",
-    volume: "330ml",
-    type: "Ale"
+    "name": "Baladin",
+    "price": "4.50",
+    "volume": "330",
+    "type": "Ale"
   },
   {
-    name: "Brasserie Dupont, Hirond'Ale",
-    price: "4.20",
-    volume: "330",
-    type: "Ale",
+    "name": "Brasserie Dupont, Hirond'Ale",
+    "price": "4.20",
+    "volume": "330",
+    "type": "Ale"
   },
   {
-    name: "Stone BUENAVEZA SALT & LIME LAGER",
-    price: "3.40",
-    volume: "330",
-    type: "Lager",
+    "name": "Stone BUENAVEZA SALT & LIME LAGER",
+    "price": "3.40",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Quöllfrisch naturtrüb",
-    price: "1.87",
-    volume: "500ml",
-    type: "Lager"
+    "name": "Quöllfrisch naturtrüb",
+    "price": "1.87",
+    "volume": "500",
+    "type": "Lager"
   },
   {
-    name: "Corona",
-    price: "1.95",
-    volume: "330ml",
-    type: "Lager", 
+    "name": "Corona",
+    "price": "1.95",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "LINDEMANS",
-    price: "3.30",
-    volume: "250ml",
-    type: "Ale", 
+    "name": "LINDEMANS",
+    "price": "3.30",
+    "volume": "250",
+    "type": "Ale"
   },
   {
-    name: "LA NEBULEUSE",
-    price: "3.95",
-    volume: "330ml",
-    type: "IPA", 
+    "name": "LA NEBULEUSE",
+    "price": "3.95",
+    "volume": "330",
+    "type": "IPA"
   },
   {
-    name: "DELIRIUM",
-    price: "9.90",
-    volume: "750ml",
-    type: "IPA", 
+    "name": "DELIRIUM",
+    "price": "9.90",
+    "volume": "750",
+    "type": "IPA"
   },
   {
-    name: "Rasta, Trolls",
-    price: "3.50",
-    volume: "330ml",
-    type: "Lager", 
+    "name": "Rasta, Trolls",
+    "price": "3.50",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Bombardier",
-    price: "2.80",
-    volume: "330ml",
-    type: "Lager",
+    "name": "Bombardier",
+    "price": "2.80",
+    "volume": "330",
+    "type": "Lager"
   },
   {
-    name: "Wychwood",
-    price: "5.30",
-    volume: "500ml",
-    type: "Ale"
+    "name": "Wychwood",
+    "price": "5.30",
+    "volume": "500",
+    "type": "Ale"
   },
   {
-    name: "BOXER",
-    price: "1.20",
-    volume: "250ml",
-    type: "Lager",
+    "name": "BOXER",
+    "price": "1.20",
+    "volume": "250",
+    "type": "Lager"
   },
   {
-    name: "Estrella Damm",
-    price: "2.30",
-    volume: "330ml",
-    type: "Lager",
-  },
+    "name": "Estrella Damm",
+    "price": "2.30",
+    "volume": "330",
+    "type": "Lager"
+  }
 
-];
+]
 const coop = [
   {
     name: "Augustiner Light Lager Beer",
     price: "2.60",
-    volume: "500ml",
+    volume: "500",
     type: "Lager"
   },
   {
     name: "BFM La Meule Bière à la sauge",
     price: "4.80",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "BFM La Salamandre Bier blanche",
     price: "4.80",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Egger Spez Maximus Beer",
     price: "1.50",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Guinness Hop House 13 Lager Beer",
     price: "2.95",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Kirin Ichiban Japan Beer",
     price: "2.50",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Peroni Bier Nastro Azzurro",
     price: "1.90",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Pilgrim Waldbier Beer",
     price: "2.80",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Rugenbräu Alpenperle Beer",
     price: "1.40",
-    volume: "330cl",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "San Martino La Helles Beer",
     price: "2.30",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "San Martino La Nostra Beer",
     price: "2.30",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "San Martino Ticino Beer",
     price: "2.40",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Ueli Light Lager Beer",
     price: "1.60",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Aare Amber Beer",
     price: "1.85",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Aare Kellerfrisch Lager Beer",
     price: "1.85",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Appenzeller bière de tonneau en bois",
     price: "2.95",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Appenzeller Quöllfrisch Beer",
     price: "1.20",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Appenzeller Quöllfrisch Beer",
     price: "1.2",
-    volume: "250ml",
+    volume: "250",
     type: "Lager"
   },
   {
     name: "BFM Saison Surette Sour Beer",
     price: "5.90",
-    volume: "375ml",
+    volume: "375",
     type: "Ale"
   },
   {
     name: "Bier Factory Corp Monkey Lager",
     price: "3.95",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
 
   },
   {
     name: "Blanche de Namur Rosée Beer",
     price: "5.95",
-    volume: "750ml",
+    volume: "750",
     type: "Ale"
   },
   {
     name: "Bourgogne des Flandres Beer",
     price: "1.95",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Boxer Brunette Beer",
     price: "1.95",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Boxer Gourmande Beer",
     price: "1.95",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Boxer Old Beer",
     price: "0.95",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Boxer Vedette Beer",
     price: "1.95",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Brooklyn Lager Beer",
     price: "2.80",
-    volume: "350ml",
+    volume: "350",
     type: "Lager"
   },
   {
     name: "Calanda Glatsch Beer",
     price: "1.30",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Cardinal non filtered",
     price: "1.25",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Chopfab White Beer",
     price: "1.29",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Coors Light Beer",
     price: "2.40",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "De Molen Hugs & Kisses Beer",
     price: "3.50",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "De Molen Rasputin Beer",
     price: "4.50",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "De Molen Vuur & Vlam Beer",
     price: "3.95",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Docteur Gab's Pépite PA Beer",
     price: "3.50",
-    volume: "330ml",
+    volume: "330",
     type: "IPA"
   },
   {
     name: "Doppelleu Double IPA Beer",
     price: "2.95",
-    volume: "330ml",
+    volume: "330",
     type: "IPA"
   },
   {
     name: "Duvel Belgian Beer",
     price: "3.50",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Eichhof Lager Beer",
     price: "1.90",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Eichhof Retro Beer",
     price: "0.90",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Eichhof Urfrisch Beer",
     price: "1.20",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Einsiedler Organic Alpen Beer",
     price: "1.90",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Feldschlösschen Win a Car Original Beer",
     price: "0.80",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Felsenau Bärner Müntschi Beer",
     price: "1.90",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Gluten Free Birra da Ris Beer",
     price: "1.62",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Grimbergen Blanche Beer",
     price: "1.90",
-    volume: "250cl",
+    volume: "250",
     type: "Ale"
   },
   {
     name: "Heineken Beer",
     price: "0.66",
-    volume: "250ml",
+    volume: "250",
     type: "Lager"
   },
   {
     name: "Insel German Coast IPA Beer",
     price: "3.95",
-    volume: "330ml",
+    volume: "330",
     type: "IPA"
   },
   {
     name: "Insel Kreide Beer",
     price: "3.95",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Kronenbourg 1664 Beer",
     price: "0.99",
-    volume: "250ml",
+    volume: "250",
     type: "Lager"
   },
   {
     name: "L'Echappée Originale Beer",
     price: "3.90",
-    volume: "375ml",
+    volume: "375",
     type: "Ale"
   },
   {
     name: "Lägere Bräu Beer",
     price: "1.00",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "La Nébuleuse Double Oat Beer",
     price: "3.40",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "La Nébuleuse Stirling Beer",
     price: "3.40",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Leffe Lager Beer",
     price: "2.40",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Liefmans Fruitesse Beer",
     price: "2.60",
-    volume: "250ml",
+    volume: "250",
     type: "Ale"
   },
   {
     name: "Liefmans Yell'Oh Beer",
     price: "2.80",
-    volume: "250ml",
+    volume: "250",
     type: "Lager"
   },
   {
     name: "Luzerner Original Beer",
     price: "4.20",
-    volume: "330ml",
+    volume: "330",
     type: "Lager"
   },
   {
     name: "Luzerner Red Ale",
     price: "3.00",
-    volume: "330ml",
+    volume: "330",
     type: "Ale"
   },
   {
     name: "Molson Canadian Beer",
     price: "2.80",
-    volume: "355ml",
+    volume: "355",
     type: "Lager"
-  },
-];
+  },];
 //define margins, height and width
-const margin = { top: 20, right: 0, bottom: 30, left: 40 };
+const margin = { top: 20, right: 0, bottom: 50, left: 40 };
 const height = 500;
 const width = 954;
 
@@ -691,11 +691,50 @@ var tooltip = d3
 //data input and selection
 d3.select("#shop_option").on("change", change);
 
+
+function compare_price_volume(a, b){
+        // a should come before b in the sorted order
+        if(a.volume < b.volume){
+                return -1;
+        // a should come after b in the sorted order
+        }else if(a.volume > b.volume){
+                return 1;
+        // a and b are the same
+        }else{
+            //same but with prices
+            if(a.price < b.price){
+              return -1;
+            }
+            else if(a.price > b.price){
+              return 1;
+            }
+            else  {
+            return 0;
+            }
+        }
+}
+
+function compare_name(a, b){
+        // a should come before b in the sorted order
+        if(a.name < b.name){
+                return -1;
+        // a should come after b in the sorted order
+        }else if(a.name > b.name){
+                return 1;
+        // a and b are the same
+        }else{
+                return 0;
+        }
+}
+
+coop.sort(compare_price_volume);
+
 function change() {
-  let data = coop;
+  let data = [...coop]
   if (this.selectedIndex == 1) {
-    data = manor;
+    data = [...manor];
   }
+  data.sort(compare_price_volume);
   //removing svg and tooltip
   d3.select(".canva").select("svg").remove();
   d3.select(".canva").select("div").remove();
@@ -715,17 +754,27 @@ function change() {
 
   x = d3
     .scaleBand()
-    .domain(data.map((d, i) => i))
+    .domain(data.map((d, i) => `${i}:${d.volume}`))
     .rangeRound([margin.left, width - margin.right - 27])
     .padding(0.1);
+    
   y = d3
     .scaleLinear()
     .domain([0, d3.max(data, (d) => d.price * 1.1)])
     .range([height - margin.bottom, margin.top]);
+
   svg
     .append("g")
+    .attr("class", "x_axis")
     .attr("transform", `translate(0,${height - margin.bottom})`)
-    .call(d3.axisBottom(x));
+    .call(d3.axisBottom(x))
+    .selectAll("text")
+    .attr("font-size", 13)
+    .attr("y", 0)
+    .attr("x", 9)
+    .attr("dy", ".35em")
+    .attr("transform", "rotate(90)")
+    .style("text-anchor", "start");
 
   svg
     .append("g")
@@ -746,8 +795,8 @@ function change() {
       .attr("font-family", "sans-serif")
       .attr("font-size", 11)
       .attr("font-weight", "bold")
-      .attr("transform", `translate(${width + margin.right - 28},${height - margin.bottom})`)
-      .text("Index");
+      .attr("transform", `translate(${width + margin.right - 20},${height - margin.bottom - 30})rotate(90)`)
+      .text("Idx: Volume");
   yAxis = (g) =>
     g
       .attr("transform", `translate(${margin.left},0)`)
@@ -757,6 +806,14 @@ function change() {
     g
       .attr("transform", `translate(0,${height - margin.bottom})`)
       .call(d3.axisBottom(x).tickSizeOuter(0))
+      .selectAll("text")
+      .attr("font-size", 13)
+      .attr("y", 0)
+      .attr("x", 9)
+      .attr("dy", ".35em")
+      .attr("transform", "rotate(90)")
+      .style("text-anchor", "start")
+      .call((g) => g.select(".domain").remove());
   // create bars for each beer
   var bars = svg
     .append("g")
@@ -764,7 +821,7 @@ function change() {
     .selectAll("rect")
     .data(data)
     .join("rect")
-    .attr("x", (d, i) => x(i))
+    .attr("x", (d, i) => x(`${i}:${d.volume}`))
     .attr("y", (d) => y(d.price))
     .attr("height", 0)
     .attr("width", x.bandwidth())
@@ -772,7 +829,7 @@ function change() {
       d3.select(this).style("fill", "yellow");
       tooltip.transition().duration(200).style("opacity", 0.9);
       tooltip
-        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume}  <br />  Type: ${d.type} </span>`)
+        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume} ml  <br />  Type: ${d.type} </span>`)
     })
     .on("mouseout", function (d) {
       d3.select(this).style("fill", "lightyellow");
@@ -790,7 +847,7 @@ function change() {
     .enter()
     .append("text")
     .text("🍺")
-    .attr("x", (d, i) => x(i))
+    .attr("x", (d, i) => x(`${i}:${d.volume}`))
     .attr("y", 0)
     .on("mouseover", function (d) {
       tooltip.transition().duration(200).style("opacity", 0.9);
@@ -935,7 +992,7 @@ var radius = Math.min(width_pie, height_pie) / 2 - margin_pie
   }
 
   output = document.getElementById('output')
-  output.innerHTML = json2Table(data)
+  output.innerHTML = json2Table(data.sort(compare_name))
 
   // call x, y axis and y title
 
@@ -950,7 +1007,7 @@ var radius = Math.min(width_pie, height_pie) / 2 - margin_pie
 //define x and y scales and position them
 x = d3
   .scaleBand()
-  .domain(coop.map((d, i) => i))
+  .domain(coop.map((d, i) => `${i}:${d.volume}`))
   .rangeRound([margin.left, width - margin.right - 27])
   .padding(0.1);
 y = d3
@@ -961,7 +1018,14 @@ y = d3
 svg
   .append("g")
   .attr("transform", `translate(0,${height - margin.bottom})`)
-  .call(d3.axisBottom(x));
+  .call(d3.axisBottom(x))
+  .selectAll("text")
+  .attr("font-size", 13)
+  .attr("y", 0)
+  .attr("x", 9)
+  .attr("dy", ".35em")
+  .attr("transform", "rotate(90)")
+  .style("text-anchor", "start");
 
 svg
   .append("g")
@@ -982,8 +1046,8 @@ xTitle = (g) =>
     .attr("font-family", "sans-serif")
     .attr("font-size", 11)
     .attr("font-weight", "bold")
-    .attr("transform", `translate(${width + margin.right - 28},${height - margin.bottom})`)
-    .text("Index");
+    .attr("transform", `translate(${width + margin.right - 20},${height - margin.bottom - 30})rotate(90)`)
+    .text("Idx : Volume");
 yAxis = (g) =>
   g
     .attr("transform", `translate(${margin.left},0)`)
@@ -993,6 +1057,13 @@ xAxis = (g) =>
   g
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).tickSizeOuter(0))
+    .selectAll("text")
+    .attr("font-size", 13)
+    .attr("y", 0)
+    .attr("x", 9)
+    .attr("dy", ".35em")
+    .attr("transform", "rotate(90)")
+    .style("text-anchor", "start")
     .call((g) => g.select(".domain").remove());
     
 // create bars for each beer
@@ -1002,7 +1073,7 @@ var bars = svg
   .selectAll("rect")
   .data(coop)
   .join("rect")
-  .attr("x", (d, i) => x(i))
+  .attr("x", (d, i) => x(`${i}:${d.volume}`))
   .attr("y", (d) => y(d.price))
   .attr("height", 0)
   .attr("width", x.bandwidth())
@@ -1011,7 +1082,7 @@ var bars = svg
     d3.select(this).style("fill", "yellow");
     tooltip.transition().duration(200).style("opacity", 0.9);
     tooltip
-      .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume}  <br />  Type: ${d.type} </span>`)
+      .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume} ml <br />  Type: ${d.type} </span>`)
       .style("left", d3.select(this) + "px")
       .style("top", d3.select(this) - 50 + "px");
   })
@@ -1033,7 +1104,7 @@ svg
   .enter()
   .append("text")
   .text("🍺")
-  .attr("x", (d, i) => x(i))
+  .attr("x", (d, i) => x(`${i}:${d.volume}`))
   .attr("y", 0)
   .on("mouseover", function (d) {
       tooltip.transition().duration(200).style("opacity", 0.9);
@@ -1072,7 +1143,6 @@ var radius = Math.min(width_pie, height_pie) / 2 - margin_pie
     let Lager_num = 0;
     let IPA_num = 0;
     for(let i of coop){
-      console.log(i.type)
       if(i.type == "Lager"){
         ++Lager_num;
       }
@@ -1173,7 +1243,7 @@ function json2Table(json) {
 }
 
 output = document.getElementById('output')
-output.innerHTML = json2Table(coop)
+output.innerHTML = json2Table(coop.sort(compare_name))
 
 // call x, y axis and y title
 
