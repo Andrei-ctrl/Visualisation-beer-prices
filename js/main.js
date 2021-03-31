@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 const manor = [
   {
     "name": "Duvel",
@@ -352,6 +356,30 @@ const manor = [
     "type": "Lager"
   },
 
+  {
+    name: "Heineken Beer",
+    price: "1.50",
+    volume: "250",
+    type: "Lager"
+  },
+  {
+    name: "Feldschlösschen",
+    price: "0.80",
+    volume: "330",
+    type: "Lager"
+  },
+  {
+    name: "Cardinal",
+    price: "1.60",
+    volume: "330",
+    type: "Ale"
+  },
+  {
+    name: "Leffe Lager Beer",
+    price: "2.00",
+    volume: "330",
+    type: "Lager"
+  },
 ]
 const coop = [
   {
@@ -359,18 +387,6 @@ const coop = [
     price: "2.60",
     volume: "500",
     type: "Lager"
-  },
-  {
-    name: "BFM La Meule Bière à la sauge",
-    price: "4.80",
-    volume: "330",
-    type: "Lager"
-  },
-  {
-    name: "BFM La Salamandre Bier blanche",
-    price: "4.80",
-    volume: "330",
-    type: "Ale"
   },
   {
     "name": "Chimay Bleue",
@@ -478,24 +494,6 @@ const coop = [
     type: "Ale"
   },
   {
-    name: "San Martino La Helles Beer",
-    price: "2.30",
-    volume: "330",
-    type: "Lager"
-  },
-  {
-    name: "San Martino La Nostra Beer",
-    price: "2.30",
-    volume: "330",
-    type: "Lager"
-  },
-  {
-    name: "San Martino Ticino Beer",
-    price: "2.40",
-    volume: "330",
-    type: "Lager"
-  },
-  {
     name: "Ueli Light Lager Beer",
     price: "1.60",
     volume: "330",
@@ -510,12 +508,6 @@ const coop = [
   {
     name: "Aare Kellerfrisch Lager Beer",
     price: "1.85",
-    volume: "330",
-    type: "Lager"
-  },
-  {
-    name: "Appenzeller bière de tonneau",
-    price: "2.95",
     volume: "330",
     type: "Lager"
   },
@@ -572,12 +564,6 @@ const coop = [
     price: "1.2",
     volume: "250",
     type: "Lager"
-  },
-  {
-    name: "BFM Saison Surette Sour Beer",
-    price: "5.90",
-    volume: "375",
-    type: "Ale"
   },
   {
     name: "Bier Factory Corp Monkey Lager",
@@ -641,22 +627,10 @@ const coop = [
     "type": "IPA"
   },
   {
-    name: "Boxer Gourmande Beer",
-    price: "1.95",
-    volume: "330",
-    type: "Ale"
-  },
-  {
     name: "Boxer Old Beer",
     price: "0.95",
     volume: "330",
     type: "Lager"
-  },
-  {
-    name: "Boxer Vedette Beer",
-    price: "1.95",
-    volume: "330",
-    type: "Ale"
   },
   {
     name: "Brooklyn Lager Beer",
@@ -671,7 +645,7 @@ const coop = [
     type: "Lager"
   },
   {
-    name: "Cardinal non filtered",
+    name: "Cardinal",
     price: "1.25",
     volume: "330",
     type: "Ale"
@@ -719,7 +693,7 @@ const coop = [
     type: "IPA"
   },
   {
-    name: "Duvel Belgian Beer",
+    name: "Duvel",
     price: "3.50",
     volume: "330",
     type: "Lager"
@@ -729,18 +703,6 @@ const coop = [
     price: "1.90",
     volume: "330",
     type: "Lager"
-  },
-  {
-    name: "Eichhof Retro Beer",
-    price: "0.90",
-    volume: "330",
-    type: "Lager"
-  },
-  {
-    name: "Eichhof Urfrisch Beer",
-    price: "1.20",
-    volume: "330",
-    type: "Ale"
   },
   {
     name: "Einsiedler Organic Alpen Beer",
@@ -755,13 +717,7 @@ const coop = [
     type: "Lager"
   },
   {
-    name: "Felsenau Bärner Müntschi Beer",
-    price: "1.90",
-    volume: "330",
-    type: "Lager"
-  },
-  {
-    name: "Gluten Free Birra da Ris Beer",
+    name: "Birra da Ris",
     price: "1.62",
     volume: "330",
     type: "Lager"
@@ -776,18 +732,6 @@ const coop = [
     name: "Heineken Beer",
     price: "0.66",
     volume: "250",
-    type: "Lager"
-  },
-  {
-    name: "Insel German Coast IPA Beer",
-    price: "3.95",
-    volume: "330",
-    type: "IPA"
-  },
-  {
-    name: "Insel Kreide Beer",
-    price: "3.95",
-    volume: "330",
     type: "Lager"
   },
   {
