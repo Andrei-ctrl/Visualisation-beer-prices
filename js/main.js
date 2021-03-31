@@ -1,5 +1,7 @@
 
 
+
+
 const manor = [
   {
     "name": "Duvel",
@@ -41,14 +43,13 @@ const manor = [
 
   },
   {
-    "name": "WESTMALLE",
+    "name": "Westmalle",
     "price": "4.20",
     "volume": "330",
     "type": "Lager"
-
   },
   {
-    "name": "Porn star",
+    "name": "Hoppy People Porn star",
     "price": "3.50",
     "volume": "330",
     "type": "IPA"
@@ -60,37 +61,49 @@ const manor = [
     "type": "Lager"
   },
   {
-    "name": "GRIMBERGEN",
+    "name": "Grimbergen Rouge",
     "price": "1.95",
-    "volume": "330",
+    "volume": "250",
+    "type": "Ale"
+  },
+   {
+    "name": "Grimbergen Blanche",
+    "price": "1.95",
+    "volume": "250",
     "type": "Ale"
   },
   {
-    "name": "Peroni",
-    "price": "2.20",
-    "volume": "330",
-    "type": "Lager"
+    name: "Peroni Nastro Azzurro",
+    price: "2.00",
+    volume: "330",
+    type: "Lager"
   },
   {
-    "name": "Chimay",
+    "name": "Chimay Bleue",
     "price": "3.75",
     "volume": "330",
     "type": "Ale" 
   },
   {
-    "name": "Liefmans",
+    "name": "Chimay Grande Réserve",
+    "price": "8.50",
+    "volume": "750",
+    "type": "Ale" 
+  },
+  {
+    "name": "Liefmans Kriek",
     "price": "9.00",
     "volume": "750",
     "type": "Ale"
   },
   {
-    "name": "LIEFMANS",
+    "name": "Liefmans Fruitesse Beer",
     "price": "3.50",
     "volume": "250",
     "type": "Ale"
   },
   {
-    "name": "Wanderlust",
+    "name": "Wanderlust Swiss PA",
     "price": "3.40",
     "volume": "330",
     "type": "Ale"
@@ -109,10 +122,22 @@ const manor = [
     "type": "IPA"
   },
   {
-    "name": "Brewdog",
+    "name": "Brewdog Punk IPA",
     "price": "2.95",
     "volume": "500",
     "type": "IPA"
+  },
+  {
+    "name": "Brewdog Vagabond Pale Ale",
+    "price": "3.40",
+    "volume": "330",
+    "type": "Ale"
+  },
+   {
+    "name": "Brewdog Punk AF",
+    "price": "3.40",
+    "volume": "330",
+    "type": "Alcohol free"
   },
   {
     "name": "Riegele, Augustus 8",
@@ -140,9 +165,15 @@ const manor = [
 
   },
   {
-    "name": "Officina Della Birra",
+    "name": "Innah IPA",
     "price": "3.90",
     "volume": "330",
+    "type": "IPA"
+  },
+  {
+    "name": "Innah Lisbeth",
+    "price": "13.40",
+    "volume": "750",
     "type": "IPA"
   },
   {
@@ -155,25 +186,32 @@ const manor = [
     "name": "Guinness",
     "price": "3.00",
     "volume": "330",
-    "type": "Ale"
+    "type": "Stout"
   },
   {
-    "name": "La Chouffe",
+    "name": "Chouffe Blonde",
     "price": "3.60",
     "volume": "330",
     "type": "Lager"
   },
+  
   {
-    "name": "Chouffe",
+    "name": "Chouffe Cherry",
     "price": "3.90",
     "volume": "330",
     "type": "Ale"
   },
   {
-    "name": "Chimay",
+    "name": "Chouffe Magnum",
+    "price": "19.95",
+    "volume": "1500",
+    "type": "Ale"
+  },
+  {
+    "name": "Chimay Blonde Triple",
     "price": "3.75",
     "volume": "330",
-    "type": "Lager"
+    "type": "Ale"
   },
   {
     "name": "Insel Kreide",
@@ -194,7 +232,7 @@ const manor = [
     "type": "IPA"
   },
   {
-    "name": "1664",
+    "name": "Kronenbourg 1664 Beer",
     "price": "1.00",
     "volume": "250",
     "type": "Lager"
@@ -248,13 +286,13 @@ const manor = [
     "type": "Ale"
   },
   {
-    "name": "Stone BUENAVEZA SALT & LIME LAGER",
+    "name": "Stone IPA",
     "price": "3.40",
     "volume": "330",
-    "type": "Lager"
+    "type": "IPA"
   },
   {
-    "name": "Quöllfrisch naturtrüb",
+    "name": "Appenzeller Quöllfrisch Beer",
     "price": "1.87",
     "volume": "500",
     "type": "Lager"
@@ -266,13 +304,13 @@ const manor = [
     "type": "Lager"
   },
   {
-    "name": "LINDEMANS",
+    "name": "Lindemans Pecheresse",
     "price": "3.30",
     "volume": "250",
     "type": "Ale"
   },
   {
-    "name": "LA NEBULEUSE",
+    "name": "La Nébuleuse Stirling Beer",
     "price": "3.95",
     "volume": "330",
     "type": "IPA"
@@ -302,17 +340,17 @@ const manor = [
     "type": "Ale"
   },
   {
-    "name": "BOXER",
+    "name": "Boxer Old Beer",
     "price": "1.20",
     "volume": "250",
     "type": "Lager"
   },
   {
-    "name": "Estrella Damm",
+    "name": "Estrella Galicia",
     "price": "2.30",
     "volume": "330",
     "type": "Lager"
-  }
+  },
 
 ]
 const coop = [
@@ -335,16 +373,85 @@ const coop = [
     type: "Ale"
   },
   {
+    "name": "Chimay Bleue",
+    "price": "3.75",
+    "volume": "330",
+    "type": "Ale" 
+  },
+  {
+    "name": "Chimay Grande Réserve",
+    "price": "8.90",
+    "volume": "750",
+    "type": "Ale" 
+  },
+  
+  {
+    "name": "Chouffe Blonde",
+    "price": "3.50",
+    "volume": "330",
+    "type": "Lager"
+  },
+  
+  {
+    "name": "Chouffe Cherry",
+    "price": "3.50",
+    "volume": "330",
+    "type": "Ale"
+  },
+    {
+    "name": "Coopers",
+    "price": "2.80",
+    "volume": "330",
+    "type": "Ale"
+
+  },
+  {
+    "name": "Corona",
+    "price": "2.15",
+    "volume": "330",
+    "type": "Lager"
+  },
+  {
+    "name": "Desperados",
+    "price": "1.25",
+    "volume": "330",
+    "type": "N/A"
+  },
+   {
+    "name": "Estrella Galicia",
+    "price": "1.85",
+    "volume": "330",
+    "type": "Lager"
+  },
+   {
+    "name": "Grimbergen Rouge",
+    "price": "1.95",
+    "volume": "250",
+    "type": "Ale"
+  },
+   {
+    "name": "Grimbergen Blanche",
+    "price": "1.95",
+    "volume": "250",
+    "type": "Ale"
+  },
+   {
+    "name": "Hoppy People Porn star",
+    "price": "3.70",
+    "volume": "330",
+    "type": "IPA"
+  },
+  {
     name: "Egger Spez Maximus Beer",
     price: "1.50",
     volume: "330",
     type: "Lager"
   },
   {
-    name: "Guinness Hop House 13 Lager Beer",
+    name: "Guinness",
     price: "2.95",
     volume: "330",
-    type: "Lager"
+    type: "Stout"
   },
   {
     name: "Kirin Ichiban Japan Beer",
@@ -353,7 +460,7 @@ const coop = [
     type: "Lager"
   },
   {
-    name: "Peroni Bier Nastro Azzurro",
+    name: "Peroni Nastro Azzurro",
     price: "1.90",
     volume: "330",
     type: "Lager"
@@ -407,7 +514,7 @@ const coop = [
     type: "Lager"
   },
   {
-    name: "Appenzeller bière de tonneau en bois",
+    name: "Appenzeller bière de tonneau",
     price: "2.95",
     volume: "330",
     type: "Lager"
@@ -417,6 +524,48 @@ const coop = [
     price: "1.20",
     volume: "330",
     type: "Lager"
+  },
+  {
+    "name": "Riegele, Augustus 8",
+    "price": "6.10",
+    "volume": "660",
+    "type": "Ale"
+  },
+  {
+    "name": "Riegele, Simco 3",
+    "price": "6.10",
+    "volume": "660",
+    "type": "Ale"
+  },
+   {
+    "name": "SWAF ",
+    "price": "2.20",
+    "volume": "500",
+    "type": "Lager"
+  },
+  {
+    "name": "Westmalle",
+    "price": "3.70",
+    "volume": "330",
+    "type": "Lager"
+  },
+  {
+    "name": "Wanderlust Swiss PA",
+    "price": "2.95",
+    "volume": "330",
+    "type": "Ale"
+  },
+  {
+    "name": "White Frontier, Amor Fati",
+    "price": "3.70",
+    "volume": "330",
+    "type": "Ale"
+  },
+  {
+    "name": "White Frontier, Log-out & Live",
+    "price": "3.70",
+    "volume": "330",
+    "type": "Ale"
   },
   {
     name: "Appenzeller Quöllfrisch Beer",
@@ -454,6 +603,42 @@ const coop = [
     price: "1.95",
     volume: "330",
     type: "Ale"
+  },
+  {
+    name: "Brewdog Punk IPA",
+    price: "3.95",
+    volume: "500",
+    type: "IPA"
+  },
+  {
+    "name": "Brewdog Punk AF",
+    "price": "3.20",
+    "volume": "330",
+    "type": "Alcohol free"
+  },
+  {
+    "name": "Brewdog Clockwork Tangerine",
+    "price": "3.20",
+    "volume": "330",
+    "type": "IPA"
+  },
+  {
+    "name": "Brewdog Hazy Jane",
+    "price": "3.30",
+    "volume": "330",
+    "type": "IPA"
+  },
+  {
+    "name": "Lindemans Pecheresse",
+    "price": "3.30",
+    "volume": "250",
+    "type": "Ale"
+  },
+   {
+    "name": "Oh IPA",
+    "price": "3.40",
+    "volume": "330",
+    "type": "IPA"
   },
   {
     name: "Boxer Gourmande Beer",
@@ -564,7 +749,7 @@ const coop = [
     type: "Lager"
   },
   {
-    name: "Feldschlösschen Win a Car Original Beer",
+    name: "Feldschlösschen",
     price: "0.80",
     volume: "330",
     type: "Lager"
@@ -666,13 +851,14 @@ const coop = [
     type: "Ale"
   },
   {
-    name: "Molson Canadian Beer",
+    name: "Molson Canadian Beer", 
     price: "2.80",
     volume: "355",
     type: "Lager"
   },];
+
 //define margins, height and width
-const margin = { top: 20, right: 0, bottom: 50, left: 40 };
+const margin = { top: 20, right: 10, bottom: 210, left: 40 };
 const height = 500;
 const width = 954;
 
@@ -691,27 +877,34 @@ var tooltip = d3
 //data input and selection
 d3.select("#shop_option").on("change", change);
 
+/*
+fill with green color matching names by adding class red 
+*/
+
+function my_f(data1, data2){
+  for(i = 0; i<data1.length; i++){
+    for(j = 0; j<data2.length; j++){
+      if(data1[i].name == data2[j].name){
+        data1[i].class = "red"
+        data2[j].class = "red"
+      }
+
+  }}
+}
+my_f(coop, manor)
+
 
 function compare_price_volume(a, b){
         // a should come before b in the sorted order
-        if(a.volume < b.volume){
+        if((a.price/(a.volume/100)) < (b.price/(b.volume/100))){
                 return -1;
         // a should come after b in the sorted order
-        }else if(a.volume > b.volume){
+        }else if((a.price/(a.volume/100)) > (b.price/(b.volume/100))){
                 return 1;
         // a and b are the same
         }else{
-            //same but with prices
-            if(a.price < b.price){
-              return -1;
-            }
-            else if(a.price > b.price){
-              return 1;
-            }
-            else  {
             return 0;
-            }
-        }
+        }    
 }
 
 function compare_name(a, b){
@@ -754,22 +947,22 @@ function change() {
 
   x = d3
     .scaleBand()
-    .domain(data.map((d, i) => `${i}:${d.volume}`))
-    .rangeRound([margin.left, width - margin.right - 27])
-    .padding(0.1);
+    .domain(data.map((d, i) => `${i}:${d.name}`))
+    .rangeRound([margin.left, width - margin.right - 1])
+    .padding(0.08);
     
   y = d3
     .scaleLinear()
-    .domain([0, d3.max(data, (d) => d.price * 1.1)])
+    .domain([0, d3.max(data, (d) => (d.price)/(d.volume/100))])
     .range([height - margin.bottom, margin.top]);
-
+  
   svg
     .append("g")
     .attr("class", "x_axis")
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x))
     .selectAll("text")
-    .attr("font-size", 13)
+    .attr("font-size", 11)
     .attr("y", 0)
     .attr("x", 9)
     .attr("dy", ".35em")
@@ -788,7 +981,7 @@ function change() {
       .attr("font-size", 11)
       .attr("font-weight", "bold")
       .attr("y", 10)
-      .text("Price in CHF");
+      .text("Price/dl");
   xTitle = (g) =>
     g
       .append("text")
@@ -796,7 +989,7 @@ function change() {
       .attr("font-size", 11)
       .attr("font-weight", "bold")
       .attr("transform", `translate(${width + margin.right - 20},${height - margin.bottom - 30})rotate(90)`)
-      .text("Idx: Volume");
+      .text("Name");
   yAxis = (g) =>
     g
       .attr("transform", `translate(${margin.left},0)`)
@@ -807,7 +1000,7 @@ function change() {
       .attr("transform", `translate(0,${height - margin.bottom})`)
       .call(d3.axisBottom(x).tickSizeOuter(0))
       .selectAll("text")
-      .attr("font-size", 13)
+      .attr("font-size", 11)
       .attr("y", 0)
       .attr("x", 9)
       .attr("dy", ".35em")
@@ -817,29 +1010,36 @@ function change() {
   // create bars for each beer
   var bars = svg
     .append("g")
-    .attr("fill", "lightyellow")
     .selectAll("rect")
     .data(data)
     .join("rect")
-    .attr("x", (d, i) => x(`${i}:${d.volume}`))
-    .attr("y", (d) => y(d.price))
+    .attr("x", (d, i) => x(`${i}:${d.name}`))
+    .attr("y", (d) => y((d.price)/(d.volume/100)))
+    .attr("class", (d) => d.class)
+    .attr("fill", (d) => d.class == "red" ? "lightgreen" : "lightyellow")
     .attr("height", 0)
     .attr("width", x.bandwidth())
     .on("mouseover", function (d) {
-      d3.select(this).style("fill", "yellow");
+      if(d.class == "red"){
+        d3.select(this).style("fill", "green")}
+      else{
+        d3.select(this).style("fill", "yellow");}
       tooltip.transition().duration(200).style("opacity", 0.9);
       tooltip
-        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume} ml  <br />  Type: ${d.type} </span>`)
+        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume} ml  <br />  Type: ${d.type} <br /> Price/dl: ${(d.price/(d.volume/100)).toFixed(2)} </span>`)
     })
     .on("mouseout", function (d) {
-      d3.select(this).style("fill", "lightyellow");
+      if(d.class == "red"){
+        d3.select(this).style("fill", "lightgreen")}
+      else{
+        d3.select(this).style("fill", "lightyellow");}
       tooltip.transition().duration(500).style("opacity", 0);
     });
   bars
     .transition()
     .duration(1500)
     .delay(200)
-    .attr("height", (d) => y(0) - y(d.price));
+    .attr("height", (d) => y(0) - y((d.price)/(d.volume/100)));
   svg
     .append("g")
     .selectAll("text")
@@ -847,12 +1047,12 @@ function change() {
     .enter()
     .append("text")
     .text("🍺")
-    .attr("x", (d, i) => x(`${i}:${d.volume}`))
+    .attr("x", (d, i) => x(`${i}:${d.name}`))
     .attr("y", 0)
     .on("mouseover", function (d) {
       tooltip.transition().duration(200).style("opacity", 0.9);
       tooltip
-        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume}  <br />  Type: ${d.type} </span>`)
+        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume} ml  <br />  Type: ${d.type} <br /> Price/dl: ${(d.price/(d.volume/100)).toFixed(2)}  </span>`)
         .style("left", d3.select(this) + "px")
         .style("top", d3.select(this) - 50 + "px");
     })
@@ -861,7 +1061,7 @@ function change() {
     })
     .transition()
     .duration(1000)
-    .attr("y", (d) => y(d.price) + 14);
+    .attr("y", (d) => y((d.price)/(d.volume/100)) + 14);
   
   // set the dimensions and margins of the graph
 var width_pie = 450
@@ -959,6 +1159,14 @@ var radius = Math.min(width_pie, height_pie) / 2 - margin_pie
   function json2Table(json) {
     let cols = Object.keys(json[0]);
 
+    console.log(cols.length)
+    // hot fix of "class" : "red" column in the table
+    if(cols.length > 4){
+      cols.pop();
+    }
+  
+    
+
 
     //Map over columns, make headers,join into string
     let headerRow = cols
@@ -1007,12 +1215,12 @@ var radius = Math.min(width_pie, height_pie) / 2 - margin_pie
 //define x and y scales and position them
 x = d3
   .scaleBand()
-  .domain(coop.map((d, i) => `${i}:${d.volume}`))
-  .rangeRound([margin.left, width - margin.right - 27])
-  .padding(0.1);
+  .domain(coop.map((d, i) => `${i}:${d.name}`))
+  .rangeRound([margin.left, width - margin.right])
+  .padding(0.08);
 y = d3
   .scaleLinear()
-  .domain([0, d3.max(coop, (d) => d.price * 1.1)])
+  .domain([0, d3.max(coop, (d) => (d.price)/(d.volume/100))])
   .range([height - margin.bottom, margin.top]);
 
 svg
@@ -1020,7 +1228,7 @@ svg
   .attr("transform", `translate(0,${height - margin.bottom})`)
   .call(d3.axisBottom(x))
   .selectAll("text")
-  .attr("font-size", 13)
+  .attr("font-size", 11)
   .attr("y", 0)
   .attr("x", 9)
   .attr("dy", ".35em")
@@ -1039,7 +1247,7 @@ yTitle = (g) =>
     .attr("font-size", 11)
     .attr("font-weight", "bold")
     .attr("y", 10)
-    .text("Price in CHF");
+    .text("Price/dl");
 xTitle = (g) =>
   g
     .append("text")
@@ -1047,7 +1255,7 @@ xTitle = (g) =>
     .attr("font-size", 11)
     .attr("font-weight", "bold")
     .attr("transform", `translate(${width + margin.right - 20},${height - margin.bottom - 30})rotate(90)`)
-    .text("Idx : Volume");
+    .text("Name");
 yAxis = (g) =>
   g
     .attr("transform", `translate(${margin.left},0)`)
@@ -1058,7 +1266,7 @@ xAxis = (g) =>
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).tickSizeOuter(0))
     .selectAll("text")
-    .attr("font-size", 13)
+    .attr("font-size", 11)
     .attr("y", 0)
     .attr("x", 9)
     .attr("dy", ".35em")
@@ -1067,34 +1275,38 @@ xAxis = (g) =>
     .call((g) => g.select(".domain").remove());
     
 // create bars for each beer
-var bars = svg
-  .append("g")
-  .attr("fill", "lightyellow")
-  .selectAll("rect")
-  .data(coop)
-  .join("rect")
-  .attr("x", (d, i) => x(`${i}:${d.volume}`))
-  .attr("y", (d) => y(d.price))
-  .attr("height", 0)
-  .attr("width", x.bandwidth())
-  //mouseover function to display the data
-  .on("mouseover", function (d) {
-    d3.select(this).style("fill", "yellow");
-    tooltip.transition().duration(200).style("opacity", 0.9);
-    tooltip
-      .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume} ml <br />  Type: ${d.type} </span>`)
-      .style("left", d3.select(this) + "px")
-      .style("top", d3.select(this) - 50 + "px");
-  })
-  .on("mouseout", function (d) {
-    d3.select(this).style("fill", "lightyellow");
-    tooltip.transition().duration(500).style("opacity", 0);
-  });
+  var bars = svg
+    .append("g")
+    .selectAll("rect")
+    .data(coop)
+    .join("rect")
+    .attr("x", (d, i) => x(`${i}:${d.name}`))
+    .attr("y", (d) => y((d.price)/(d.volume/100)))
+    .attr("class", (d) => d.class)
+    .attr("fill", (d) => d.class == "red" ? "lightgreen" : "lightyellow")
+    .attr("height", 0)
+    .attr("width", x.bandwidth())
+    .on("mouseover", function (d) {
+      if(d.class == "red"){
+        d3.select(this).style("fill", "green")}
+      else{
+        d3.select(this).style("fill", "yellow");}
+      tooltip.transition().duration(200).style("opacity", 0.9);
+      tooltip
+        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume} ml  <br />  Type: ${d.type} <br /> Price/dl: ${(d.price/(d.volume/100)).toFixed(2)} </span>`)
+    })
+    .on("mouseout", function (d) {
+      if(d.class == "red"){
+        d3.select(this).style("fill", "lightgreen")}
+      else{
+        d3.select(this).style("fill", "lightyellow");}
+      tooltip.transition().duration(500).style("opacity", 0);
+    });
 bars
   .transition()
   .duration(1500)
   .delay(200)
-  .attr("height", (d) => y(0) - y(d.price));
+  .attr("height", (d) => y(0) - y((d.price)/(d.volume/100)));
 
 //add beer emoji
 svg
@@ -1104,12 +1316,12 @@ svg
   .enter()
   .append("text")
   .text("🍺")
-  .attr("x", (d, i) => x(`${i}:${d.volume}`))
+  .attr("x", (d, i) => x(`${i}:${d.name}`))
   .attr("y", 0)
   .on("mouseover", function (d) {
       tooltip.transition().duration(200).style("opacity", 0.9);
       tooltip
-        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume}  <br />  Type: ${d.type} </span>`)
+        .html(`<span class="tooltiptext"> Name: ${d.name} <br/> Price: ${d.price} .-  <br /> Volume: ${d.volume} ml  <br />  Type: ${d.type} <br /> Price/dl: ${(d.price/(d.volume/100)).toFixed(2)} </span>`)
         .style("left", d3.select(this) + "px")
         .style("top", d3.select(this) - 50 + "px");
     })
@@ -1118,7 +1330,7 @@ svg
     })
   .transition()
   .duration(1000)
-  .attr("y", (d) => y(d.price) + 14);
+  .attr("y", (d) => y((d.price)/(d.volume/100)) + 14);
   
 
 // set the dimensions and margins of the graph
